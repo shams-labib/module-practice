@@ -12,7 +12,6 @@ const Header = () => {
         <Link href={"/login"}>Login</Link>
         <Link href={"/register"}>Register</Link>
         <Link href={"/tutorials"}>Tutorials</Link>
-        <Link href={"/tutorials"}>Tutorials</Link>
       </nav>
     </div>
   );
