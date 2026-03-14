@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import NavLink from "@/Components/NavLink";
 
 const Header = () => {
   return (
@@ -7,10 +8,10 @@ const Header = () => {
       <Link href={"/"}>Dev-Story</Link>
 
       <nav className="space-x-5">
-        <Link href={"/about"}>About</Link>
-        <Link href={"/story"}>Story</Link>
-        <Link href={"/login"}>Login</Link>
-        <Link href={"/register"}>Register</Link>
+        <NavLink href={"/about"}>About</NavLink>
+        <NavLink href={"/story"}>Story</NavLink>
+        <NavLink href={"/login"}>Login</NavLink>
+        <NavLink href={"/register"}>Register</NavLink>
       </nav>
     </div>
   );
